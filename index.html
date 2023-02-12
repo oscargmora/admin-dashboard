@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <section class="input">
+            <img class="magnifying-glass" src="/icons/magnify.svg" alt="Search Magnifying Glass"/><input type="text" class="search">
+        </section>
+        <section class="name-recognition">
+            <p class="name"><img src="/icons/bell.svg" alt="Notification Bell" class="notification-bell"><img src="/icons/account.svg" alt="Profile Picture" class="account"/>Oscar Mora</p>
+        </section>
+        <section class="greeting">
+            <p class="introduction"><img src="/icons/account.svg" alt="Profile Picture" class="account"/>Hi there,<br>Oscar Mora (@oscargmora)</p>
+        </section>
+        <section class="header-buttons">
+            <button class="new">New</button>
+            <button class="upload">Upload</button>
+            <button class="share">Share</button>
+        </section>
+    </header>
+    <sidebar>
+        <div class="sidebar-contents">
+            <h1 class="dashboard"><img class="dashboard-logo" src="/icons/view-dashboard.svg" alt="Dashboard Icon"/>Dashboard</h1>
+            <section class="main-sidebar-buttons">
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="home-logo" src="icons/home.svg" alt="Home Logo"/>Home</button>
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="profile-logo" src="icons/card-account-details.svg" alt="Profile Logo"/>Profile</button>
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="messages-logo" src="icons/message.svg" alt="Messages Logo"/>Messages</button>
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="history-logo" src="icons/clock-time-four.svg" alt="History Logo"/>History</button>
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="tasks-logo" src="icons/note-multiple.svg" alt="Tasks Logo"/>Tasks</button>
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="communities-logo" src="icons/account-group.svg" alt="Communities Logo"/>Communities</button>
+            </section>
+            <section class="sidebar-settings">
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="settings-logo" src="icons/cog.svg" alt="Settings Logo"/>Settings</button>
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="support-logo" src="icons/help-rhombus.svg" alt="Support Logo"/>Support</button>
+                <button class="sidebar-buttons"><img class="sidebar-logos" id="privacy-logo" src="icons/shield-check.svg" alt="Privacy Logo"/>Privacy</button>
+            </section>
+        </div>
+    </sidebar>
+    <main-content>
+        <div class="main-content">
+            <section class="your-projects">
+                <h2>Your Projects</h2>
+                <section class="project-cards">
+                    <div>Project</div>
+                    <div>Project</div>
+                    <div>Project</div>
+                    <div>Project</div>
+                    <div>Project</div>
+                    <div>Project</div>
+                </section>
+            </section>
+            <section class="main-content-right-side">
+                <h2>Announcements</h2>
+                <div class="announcements">Card</div>
+                <h2>Trending</h2>
+                <div class="trending">Card</div>
+            </section>
+        </div>
+    </main-content>
+</body>
+</html>
