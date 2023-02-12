@@ -419,6 +419,14 @@ header {
   margin-right: 1em;
 }
 
+.notification-bell:hover {
+  cursor: pointer;
+}
+
+.account:hover {
+  cursor: pointer;
+}
+
 .name {
   grid-area: 1 / 2 / 3 / 2;
   display: flex;
@@ -519,7 +527,8 @@ main-content {
 
 .your-projects,
 .main-content-right-side {
-  padding: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
 }
 
 .project-cards {
@@ -529,13 +538,58 @@ main-content {
   gap: 10px;
 }
 
-.project-cards>div {
-  border: 4px solid black;
-  height: 6.5em;
+.project-cards>a,
+.main-content-right-side>div {
+  border-radius: 14px;
 }
 
 .main-content-right-side>div {
-  border: 4px solid black;
-  height: 8.48em;
+  height: 7.6em;
   width: 14em;
+}
+
+.project-card,
+.announcements,
+.trending {
+  padding:10px;
+  background-color: white;
+}
+
+.project-card {
+  box-shadow: inset #845ef65d 4px 0px;
+}
+
+.description {
+  font-size: 0.85em;
+}
+
+a:link { 
+  text-decoration: none;
+  color: black;
+}
+
+a:visited { 
+  text-decoration: none;
+  color: black;
+}
+
+a:hover { 
+  text-decoration: none;
+  color: black;
+}
+
+a:active { 
+  text-decoration: none;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+.project-cards-buttons {
+  height: 1em;
+  width: 1em;
 }
