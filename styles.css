@@ -371,6 +371,7 @@ body {
   grid-template-rows: 2fr 8fr;
 }
 
+/*Creates Grid and Styling for Entire Header*/
 header {
   grid-area: 1 / 2 / 2 / 3;
   display: grid;
@@ -401,7 +402,7 @@ header {
   background-color: #e7f0f6;
 }
 
-.name-recognition {
+.profile {
   display: flex;
   justify-content: center;
   margin-right: -60px;
@@ -466,6 +467,7 @@ header {
   cursor: pointer;
 }
 
+/*Styling for Entire Sidebar*/
 sidebar {
   background-color: #a691e7;
   grid-area: 1 / 1 / 3 / 2;
@@ -513,6 +515,7 @@ sidebar {
   margin-right: 15px;
 }
 
+/*Styling for Entire "Main Content" Section*/
 main-content {
   background-color: #e0f2ff;
   grid-area: 2 / 2 / 3 / 3;
@@ -544,17 +547,22 @@ main-content {
 }
 
 .main-content-right-side>div {
-  height: 7.6em;
   width: 14em;
 }
 
 .project-card,
-.announcements,
-.trending {
-  padding:10px;
+.announcements {
+  padding: 10px;
   background-color: white;
 }
 
+.trending {
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*Styling for "Your Projects" Section*/
 .project-card {
   box-shadow: inset #845ef65d 4px 0px;
 }
@@ -592,4 +600,43 @@ a:active {
 .project-cards-buttons {
   height: 1em;
   width: 1em;
+}
+
+/*Styling for "Announcement" Section*/
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: smaller;
+}
+
+.not-first-announcement-heading {
+  margin-top: 10px;
+}
+
+.announcement-description {
+  font-size: 0.8em;
+  margin: 0.5;
+  padding: 0;
+}
+
+/*Line Separator in Announcements and Trending Sections*/
+block {
+  height: 1px;
+  display: block;
+  background-color: rgb(209, 201, 219);
+}
+
+/*Styling for "Trending" Section*/
+.trending-profile-pictures {
+  height: 2em;
+  margin: 12px;
+}
+
+.trending-card {
+  display: flex;
+  align-items: center;
+}
+
+.trending-profile-names {
+  font-size: 0.85em;
 }

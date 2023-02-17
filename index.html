@@ -13,7 +13,7 @@
         <section class="input">
             <img class="magnifying-glass" src="/icons/magnify.svg" alt="Search Magnifying Glass"/><input type="text" class="search">
         </section>
-        <section class="name-recognition">
+        <section class="profile">
             <p class="name"><img src="/icons/bell.svg" alt="Notification Bell" class="notification-bell"><img src="/icons/account.svg" alt="Profile Picture" class="account"/>Oscar Mora</p>
         </section>
         <section class="greeting">
@@ -76,9 +76,32 @@
             </section>
             <section class="main-content-right-side">
                 <h2>Announcements</h2>
-                <div class="announcements">Card</div>
+                <div class="announcements">
+                    <h4>Site Maintenance</h4>
+                        <p class="announcement-description">This is a project in and of itself. Demonstrating my cohesiveness abilities with Grid and Flexbox.</p>
+                        <block class="block"></block>
+                    <h4 class="not-first-announcement-heading">Community Share Day</h4>
+                        <p class="announcement-description">The project on the left show a multitude of other projects by Oscar Mora. Click one to visit it's Github Repo!</p>
+                        <block class="block"></block>
+                    <h4 class="not-first-announcement-heading">Updated Privacy Policy</h4>
+                        <p class="announcement-description">Thank you for visiting!</p>
+                </div>
                 <h2>Trending</h2>
-                <div class="trending">Card</div>
+                <div class="trending">
+                    <trend-card>
+                        <a href="https://github.com/oscargmora" target="_blank" class="trending-card">
+                            <img src="/icons/account.svg" alt="Profile Picture" class="trending-profile-pictures"/>
+                            <p class="trending-profile-names">@oscargmora - Github<br>Software Developer</p>
+                        </a>
+                    </trend-card>
+                    <block class="block"></block>
+                    <trend-card>
+                        <a href="https://www.linkedin.com/in/oscargmora/" target="_blank" class="trending-card">
+                            <img src="/icons/account.svg" alt="Profile Picture" class="trending-profile-pictures"/>
+                            <p class="trending-profile-names">@oscargmora - LinkedIn<br>Accountant</p>
+                        </a>
+                    </trend-card>
+                </div>
             </section>
         </div>
     </main-content>
