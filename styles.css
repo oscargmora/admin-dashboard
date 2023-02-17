@@ -352,7 +352,7 @@
 
 @font-face {
   font-family: roboto;
-  src: url(/fonts/Roboto/Roboto-Thin.ttf);
+  src: url(fonts/Roboto/Roboto-Thin.ttf);
 }
 
 html, body {
